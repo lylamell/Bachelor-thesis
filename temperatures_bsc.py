@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ #-*- coding: utf-8 -*-
 '''
 Program which models temperature distribution and particle movement 
 in the crust (and mantle). Particles have different starting and ending depth.
@@ -18,7 +18,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from Mad_Trax import Mad_Trax
 
-# Variables cahnged by user
+# Variables changed by user
 adv = 0.9    # advection velocity mm/a
 n = 1         # Number of particles
 timeMa = 900  # Running time in Ma
@@ -324,27 +324,3 @@ fig, ax = plt.subplots()
 # plt.ylabel("Depth (km)")
 # plt.show()
 #==============================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
